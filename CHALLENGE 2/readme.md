@@ -7,8 +7,11 @@ False otherwise
   1.Open your preferred Python IDE or text editor.
   2.Copy and paste the provided function number_checker(a, b, c) into your code.
   3.Call the function with three integers to check if exactly two of them are positive.
-  
-## EXPLANATION USAGE
-  1.print(number_checker(2, 4, -3))  # Output: True
-  2.print(number_checker(4, -6, 9))  # Output: True
-  3.print(number_checker(-4, 6, 0))  # Output: False
+  4.print(number_checker(2, 4, -3))  # Output: True
+  5.print(number_checker(4, -6, 9))  # Output: True
+  6.print(number_checker(-4, 6, 0))  # Output: False
+
+## EXPLANATION
+ 1.In the first example, the function is called with 2, 4, and -3. Two out of the three numbers (2 and 4) are positive, so the function returns True.
+ 2.In the second example, the function is called with 4, -6, and 9. Two out of the three numbers (4 and 9) are positive, so the function returns True.
+ 3.In the third example, the function is called with -4, 6, and 0. Only one number (6) is positive, so the function returns False.
